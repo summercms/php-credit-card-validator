@@ -25,6 +25,7 @@ class CreditCard
     public const TYPE_UNIONPAY           = 'unionpay';
     public const TYPE_VISA               = 'visa';
     public const TYPE_VISA_ELECTRON      = 'visa_electron';
+    public const TYPE_HIPERCARD          = 'hipercard';
 
     protected static $cards = [
         // Debit cards must come first, since they have more specific patterns than their credit-card equivalents.
@@ -58,6 +59,13 @@ class CreditCard
             'luhn'      => true,
         ],
         // Credit cards
+        self::TYPE_HIPERCARD          => [
+            'type'      => self::TYPE_HIPERCARD,
+            'pattern'   => '/^(606282\d{10}(\d{3})?)|(3841\d{15})$/',
+            'length'    => [16, 19],
+            'cvcLength' => [3],
+            'luhn'      => true,
+        ],
         self::TYPE_VISA               => [
             'type'      => self::TYPE_VISA,
             'pattern'   => '/^4/',
