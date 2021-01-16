@@ -1,6 +1,6 @@
 # PHP Credit Card Validator
 
-[![Build Status](https://travis-ci.org/freelancehunt/php-credit-card-validator.svg?branch=master)](https://travis-ci.org/freelancehunt/php-credit-card-validator) 
+[![Build Status](https://travis-ci.com/freelancehunt/php-credit-card-validator.svg?branch=master)](https://travis-ci.com/freelancehunt/php-credit-card-validator) 
 [![codecov](https://codecov.io/gh/freelancehunt/php-credit-card-validator/branch/master/graph/badge.svg)](https://codecov.io/gh/freelancehunt/php-credit-card-validator) 
 ![PHP from Packagist](https://img.shields.io/packagist/php-v/freelancehunt/php-credit-card-validator.svg)
 [![Packagist](https://img.shields.io/packagist/v/freelancehunt/php-credit-card-validator.svg)](https://packagist.org/packages/freelancehunt/php-credit-card-validator)
